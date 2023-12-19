@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymQR</title>
+    <link rel="stylesheet" href="/assets/styles/form.css" />
+    <link rel="stylesheet" href="/assets/styles/nav.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="#"><img src='./images/logo.png' alt="LOGO"></a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="/pages/auth/signin.html">Sign In</a></li>
+            <li><a href="/pages/auth/signup.html">Sign Up</a></li>
+            <li><a href="">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+    <form class="block">
+      <h1>Prijavite se</h1>
+      <div class="group">
+        <input
+          type="email"
+          name="floating_email"
+          id="floating_email"
+          required
+        />
+        <label for="floating_email">Email address</label>
+      </div>
+      <div class="group">
+        <input
+          type="password"
+          name="floating_password"
+          id="floating_password"
+          required
+        />
+        <label for="floating_password">Password</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
