@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GymQR</title>
     <link rel="stylesheet" href="/assets/styles/form.css" />
-    <link rel="stylesheet" href="/assets/styles/nav.css">
+    <link rel="stylesheet" href="/assets/styles/nav.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul class="nav-bar">
           <li class="logo">
-            <a href="#"><img src='./images/logo.png' alt="LOGO"></a>
+            <a href="#"><img src="/assets/images/gymLogo.jpg" alt="LOGO" /></a>
           </li>
           <input type="checkbox" id="check" />
           <span class="menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about.html">About Us</a></li>
             <li><a href="/pages/auth/signin.html">Sign In</a></li>
             <li><a href="/pages/auth/signup.html">Sign Up</a></li>
             <li><a href="">Contact</a></li>
@@ -52,6 +52,9 @@
         <label for="floating_password">Password</label>
       </div>
       <button type="submit">Submit</button>
+      <p class="account-msg">
+        Don't have an account? <a href="/pages/auth/signup.html">Create one</a>
+      </p>
     </form>
   </body>
 </html>
